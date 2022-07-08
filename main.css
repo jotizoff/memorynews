@@ -6,6 +6,20 @@ body{
     display: flex;
     justify-content: center;    
 }
+.korotkiynews{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 2;
+  box-shadow: inset -27px -27px 0px 0px #d2d3d5;
+  transition: transform ease-in 10s;
+  &:hover {
+  transform: rotate(360deg);
+  transition: transform ease-in 10s;
+  }
+}
 .news{
     padding: 10px;
     display: flex;
