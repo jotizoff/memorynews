@@ -1,0 +1,45 @@
+body{
+    min-height: 100vw;
+    background-color: rgb(240, 230, 178);
+ }
+.novostpic{
+    display: flex;
+    justify-content: center;    
+}
+.news{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.npic {    
+    text-align: center;
+    padding: 20px;
+    border-radius: 100px;
+}
+a{
+    text-decoration:none;
+    color:rgb(46, 44, 44)
+}
+.shortpic{
+    padding: 10px;
+    border-radius: 15px;
+}
+.shortnovostmain{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+div.shortnovost
+ {
+    margin-top: 10px;
+    background-color: rgb(212,196,236);
+    border-radius: 10px;
+    width: 700px;
+    height: 220px;
+}
+.novost{
+    background-color: rgb(212,196,236);
+    border-radius: 10px;
+}
