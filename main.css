@@ -1,37 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+*{
+    font-family: 'Baloo 2', cursive;
+}
 body{
     min-height: 100vw;
     background-color: rgb(240, 230, 178);
  }
-section {
-  margin: 0px auto;
-  position: relative;
-  padding: 100px;
-}
 .novostpic{
     display: flex;
     justify-content: center;    
 }
-.korotkiynews{
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  background-color: #ffffff;
-  position: relative;
-  z-index: 2;
-  box-shadow: inset -27px -27px 0px 0px #d2d3d5;
-  transition: transform ease-in 10s;
-  &:hover {
-  transform: rotate(360deg);
-  transition: transform ease-in 10s;
-  }
-}
 .news{
     padding: 10px;
-    display: flex;
     justify-content: center;
 
 }
-.npic {    
+.npic1 {    
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 100px;
+}
+.npic2 {    
+    height: 500px;
+    width: 600px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 100px;
+}
+.npic3 {    
+    height: 450px;
+    width: 600px;
     text-align: center;
     padding: 20px;
     border-radius: 100px;
@@ -43,6 +43,8 @@ a{
 .shortpic{
     padding: 10px;
     border-radius: 15px;
+    width: 150px;
+    height: 150px;
 }
 .shortnovostmain{
     align-items: center;
@@ -50,15 +52,19 @@ a{
     justify-content: center;
     flex-flow: column;
 }
-div.shortnovost
+.container
  {
     margin-top: 10px;
     background-color: rgb(212,196,236);
     border-radius: 10px;
-    width: 700px;
-    height: 220px;
+    /* width: 700px;
+    height: 220px; */
 }
-.novost{
-    background-color: rgb(212,196,236);
-    border-radius: 10px;
+.logo{
+    max-width: 60vw;
+}
+@media screen and (min-width:1200px) {
+    .logo{
+        width: 300px;
+    }
 }
